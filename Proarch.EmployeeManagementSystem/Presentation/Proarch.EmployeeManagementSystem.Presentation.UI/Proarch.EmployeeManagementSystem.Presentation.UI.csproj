@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Proarch.EmployeeManagementSystem.Core.Domain\Proarch.EmployeeManagementSystem.Core.Domain.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Proarch.EmployeeManagementSystem.Infrastructure.Data\Proarch.EmployeeManagementSystem.Infrastructure.Data.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Proarch.EmployeeManagementSystem.Infrastructure\Proarch.EmployeeManagementSystem.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Proarch.EmployeeManagementSystem.Core.Application\Proarch.EmployeeManagementSystem.Core.Application.csproj" />
+  </ItemGroup>
+
+
+</Project>
